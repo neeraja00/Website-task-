@@ -1,4 +1,3 @@
-# Website-task
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,32 +6,32 @@
     <title>Welcome to Your Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class=" bg-gray-100">
-    <div class="bg-black mt-1 h-8"></div>
-    <div class="bg-green-600 text-xl text-center mt-0.5 h-36">
-        <h1 class="p-8 font-bold text-3xl text-white ">Welcome to Your Website Task</h1>
+<body class=" bg-gray-100 w-full">
+    <div class="bg-black mt-1 h-8 w-full"></div>
+    <div class="bg-green-600 text-xl text-center mt-0.5 h-36 w-full">
+        <h1 class="p-8 font-bold text-3xl text-white w-full">Welcome to Your Website Task</h1>
         <a href="#" class="mx-4 text-white font-medium ">Home</a>
         <a href="#" class="mx-4 text-white font-medium">About</a>
         <a href="#" class="mx-4 text-white font-medium">Contact</a>
     </div>
-    <div class="grid grid-cols-3 gap-6 mt-12 mx-12 h-full rounded-lg ">
-        <div class="bg-white w-full h-40 rounded-lg shadow-lg">
-        <p class="font-semibold text-green-600 text-xl p-3 mt-3 mx-2">
+    <div class="grid grid-cols-3 gap-6 mt-12 mx-12 h-full rounded-lg w-full">
+        <div class="bg-white w-full h-40 rounded-lg shadow-lg w-full">
+        <p class="font-semibold text-green-600 text-xl p-3 mt-3 mx-2 w-full">
         About CSS</p>
-        <p class="font-small mt-1 h-32 mx-5 mr-6  "> 
+        <p class="font-small mt-1 h-32 mx-5 mr-6 w-full"> 
          Cascading Style Sheets(CSS) allow you to style and layout your web pages, adding colors, spacing, and more.
         </p>
         </div>
-        <div class= "w-full h-32 rounded-lg ">
-            <p class="font-semibold text-green-600 text-xl p-1 mt-2 mx-2">
+        <div class= "w-full h-32 rounded-lg w-full">
+            <p class="font-semibold text-green-600 text-xl p-1 mt-2 mx-2 w-full">
             </p>
-            <p class="font-small mt-1 w-full h-32 mx-3"></p>
+            <p class="font-small mt-1 w-full h-32 mx-3 w-full"></p>
             </div>
-            <div class="bg-white w-full h-40 rounded-lg shadow-lg">
-                <p class="font-semibold text-green-600 text-xl p-3 mt-2 mx-2">
+            <div class="bg-white w-full h-40 rounded-lg shadow-lg w-full">
+                <p class="font-semibold text-green-600 text-xl p-3 mt-2 mx-2 w-full">
                     Box Model
                 </p>
-                <p class="font-small mt-1 mx-5"> 
+                <p class="font-small mt-1 mx-5 w-full"> 
                 The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.
                 </p>
                 </div>
@@ -40,12 +39,12 @@
                     <p class="font-semibold text-green-600 text-xl p-3 mt-2 mx-2">
                         Responsive Design 
                     </p>
-                    <p class="font-small mt-1 mx-5"> 
+                    <p class="font-small mt-1 mx-5 w-full"> 
                     Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.
                     </p>
                     </div>
     </div>
-    <div class="bg-zinc-800 text-center h-16 mt-16">
+    <div class="bg-zinc-800 text-center h-16 mt-16 w-full">
         <p class="font-small p-4 text-white mx-4"> Created by Neeraja |
             Follow us on  
             <a href="# " class=" text-green-600 mx-4"> Instagram  </a>
@@ -56,7 +55,7 @@
 
         </p>
     </div>
-    <div class="bg-black mt-0.5 h-10"></div>
+    <div class="bg-black mt-0.5 h-10 w-full"></div>
     
     
 
